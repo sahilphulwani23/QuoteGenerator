@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: aliceblue;
+    /* overflow: hidden; */
+}
+
+.container{
+    background-color: white;
+    box-shadow: 20px 10px 20px rgb(0, 58, 92);
+    width: 40rem;
+    margin:4rem 27rem;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+#text{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#author::before {
+    content: "-";
+  }
+  
+#author{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.buttons{
+    margin: 0 45rem;
+}
+
+.new-quote-book {
+    background: linear-gradient(to right, #772af4, #4900a3); 
+    border: none;
+    color: #ffffff;
+    padding: .7rem .6rem;
+    font-size: .9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    cursor:pointer;
+}
+
+.new-quote-book:hover{
+    opacity: .9;
+}
+
+.togglecss{
+    visibility: hidden;
+}
